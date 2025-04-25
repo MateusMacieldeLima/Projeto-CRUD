@@ -5,7 +5,6 @@ Requisitos:
 - Node.js instalado
 
 Passos para rodar o projeto:
-
 1. No cmd Acesse a pasta do projeto:
    cd CRUD
 
