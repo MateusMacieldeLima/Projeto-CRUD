@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Produto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Produto</h1>
+    <a href="index.html" class="btn" >Voltar para a Listagem</a>
+  </header>
+
+  <main>
+    <section id="form-container">
+      <h2 id="form-title">Adicionar Produto</h2>
+      <form id="product-form" enctype="multipart/form-data">
+        <input type="text" id="name" placeholder="Nome" required />
+        <input type="text" id="description" placeholder="Descrição" required />
+        <input type="number" id="price" placeholder="Preço" required />
+        <input type="number" id="stock" placeholder="Quantidade em Estoque" required />
+        <input type="text" id="category" placeholder="Categoria" required />
+        <input type="file" id="image" accept="image/*" />
+        <button type="submit" id="submit-btn">Adicionar Produto</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito por Mateus da Silva Maciel de Lima</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
