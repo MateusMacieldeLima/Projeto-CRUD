@@ -6,17 +6,17 @@ Requisitos:
 
 Passos para rodar o projeto:
 
-1. Acesse a pasta do projeto:
+1. No cmd Acesse a pasta do projeto:
    cd CRUD
 
 2. Instale as dependências:
    npm install
 
-3. Inicie o servidor local (exemplo usando http-server):
-   npx http-server
+3. Inicie o servidor local :
+   node Server.js
 
 4. Acesse no navegador:
-   http://localhost:8080
+   http://localhost:3000
 
 Banco de dados:
 O arquivo produtos_db.sql pode ser importado em um SGBD como MySQL.
